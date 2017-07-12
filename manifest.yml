@@ -1,0 +1,6 @@
+---
+applications:
+- name: HelloWorld_Go
+  random-route: true
+  memory: 512M
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
